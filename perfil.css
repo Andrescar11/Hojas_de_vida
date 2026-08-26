@@ -21,3 +21,35 @@
     object-fit: cover;
     border: 5px solid #0c0c0d;
 }
+
+.informacion-personal {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: Monserat, sans-serif;
+}
+
+#correo{
+    font-size: 10px;
+}
+
+#direccion{
+    font-size: 9px;
+}
+
+.referencias {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: Monserat, sans-serif;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    font-family: Monserat, sans-serif;
+}

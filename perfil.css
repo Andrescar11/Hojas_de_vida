@@ -1,6 +1,19 @@
+body {
+    background-color: #8c8989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
 .contenedor {
     display: flex;
     min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden; 
 }
 
 .columna-izquierda {
@@ -10,7 +23,7 @@
 
 .columna-derecha {
     width: 65%;
-    background-color: #c9c7c1;
+    background-color: #f6f5f3;
 }
 
 .foto-perfil {
@@ -46,10 +59,79 @@
     font-family: Monserat, sans-serif;
 }
 
+.referencias ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+}
+
 .redes-sociales {
     margin-top: 20px;
     padding: 10px;
     font-size: 10px;
     color: white;
     font-family: Monserat, sans-serif;
+}
+
+.titulares {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Monserat, sans-serif;
+}
+
+.sobre_mi {
+    margin-top: -20px;
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-family: Monserat, sans-serif;
+}
+
+#descripcion {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Monserat, sans-serif;
+}
+
+.experiencia {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Monserat, sans-serif;
+}
+
+.educacion {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Monserat, sans-serif;
+}
+
+#bachillerato, #universidad {
+    font-size: 10px;
+}
+
+.columna-inferior {
+    display: flex;
+    gap: 30px;
+}
+
+.habilidades {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    font-family: Monserat, sans-serif;
+}
+
+.lista_habilidades {
+    font-size: 13px;
+}
+
+.educacion, .habilidades {
+    flex: 1;
 }

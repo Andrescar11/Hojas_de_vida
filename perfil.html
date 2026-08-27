@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil personal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
 </head>
 <body>
     <div class="contenedor">
-        <div class="columna-izquierda">
+        <div class="columna-izquierda bg-dark text-light">
 
             <img src="imagen de perfil.jpg" alt="Foto de perfil" class ="foto-perfil">    
             
             <div class="informacion-personal">
-                <h2>Contacto</h2>
-                <p>Correo: <span id="correo">alvaroandrescar@gmail.com</span></p>
-                <p>Telefono: 315 053 2125</p>
-                <p>Documento: 1065877816</p>
-                <p>Dirección: <span id="direccion">CR 33B 20A-34 URB LA FONTANA</span></p>
+                <h2 class="titulo_contacto">Contacto</h2>
+                <p><i class="bi bi-envelope"></i> Correo: <span id="correo">alvaroandrescar@gmail.com</span></p>
+                <p><i class="bi bi-telephone"></i> Telefono: 315 053 2125</p>
+                <p><i class="bi bi-card-checklist"></i> Documento: 1065877816</p>
+                <p><i class="bi bi-geo-alt"></i> Dirección: <span id="direccion">CR 33B 20A-34 URB LA FONTANA</span></p>
             </div>
 
             <div class="referencias">
                 <ul>
-                    <h2>Certificaciones</h2>
+                    <h2 class="titulo_certificaciones">Certificaciones</h2>
                     <li>Asesoria comercial</li>
                     <li>Tecnicas de ventas</li>
                     <li>Oracle SQL</li>
@@ -31,25 +38,25 @@
             </div>
 
             <div class="redes-sociales">
-                <h2>Redes sociales</h2>
-                <p>GitHub: <a href="https://github.com/Andrescar11">Andres_kadavid</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/andr%C3%A9s-cadavid-20714b3a4/">Andrés Cadavid</a></p>
+                <h2 class="titulo_redes">Redes sociales</h2>
+                <p><i class="bi bi-github"></i> GitHub: <a href="https://github.com/Andrescar11">Andres_kadavid</a></p>
+                <p><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/andr%C3%A9s-cadavid-20714b3a4/">Andrés Cadavid</a></p>
             </div>
         </div>
 
-        <div class="columna-derecha">
-            <div class="titulares">
-                <h1 id="nombre">Álvaro Cadavid</h1 >
+        <div class="columna-derecha bg-light">
+            <div class="titulares mt-0 p-4 bg-secondary">
+                <h1 id="nombre">Álvaro Cadavid</h1>
                 <h2 id="profesion">Ingeniero de Sistemas</h2>
             </div>
 
             <div class="sobre_mi">
-                <h2>Sobre mí</h2>
+                <h2 class="titulo_sobre_mi">Sobre mí</h2>
                 <p id="descripcion">Ingeniero de sistemas con experiencia en desarrollo de software y análisis de datos. Apasionado por la tecnología y la innovación, con habilidades en programación, gestión de proyectos y resolución de problemas. Busco oportunidades para aplicar mis conocimientos y contribuir al éxito de proyectos tecnológicos.</p>
             </div>
 
             <div class="experiencia">
-                <h2>Experiencia laboral</h2>
+                <h2 class="titulo_experiencia">Experiencia laboral</h2>
                 <ul>
                     <li>
                         <h3 id="proyecto">Proyectos de gestión Supermercado - Universidad Popular del Cesar </h3>
@@ -67,7 +74,7 @@
             <div class="columna-inferior">
                 
                 <div class="educacion">
-                    <h2>Educación</h2>
+                    <h2 class="titulo_educacion">Educación</h2>
                     <ul>
                         <li>
                             <h3 id="universidad">Universidad Popular del Cesar</h3>
@@ -77,13 +84,12 @@
                         <li>
                             <h3 id="bachillerato">I.E. JOSÉ MARÍA TORTI SORIANO</h3>
                             <p>Fecha: 2018 - 2023</p>
-                            <p id="explicacion_b">Bachillerato académico con énfasis en ciencias.</p>
                         </li>
                     </ul>
                 </div>
 
                 <div class="habilidades">
-                    <h2>Habilidades</h2>
+                    <h2 class="titulo_habilidades">Habilidades</h2>
                     <div class="lista_habilidades">
                         <ul>
                             <li>Programación en Java</li>
@@ -91,11 +97,10 @@
                             <li>Análisis de datos y visualización</li>
                             <li>Trabajo en equipo</li>
                         </ul>
-                    </div class="lista_h">
+                    </div>
                 </div>
             </div>
         </div>
-        
     </div> 
 </body>
 </html>

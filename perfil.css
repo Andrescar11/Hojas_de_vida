@@ -53,11 +53,10 @@ body {
 .referencias {
     margin-top: 20px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 9px;
     color: white;
     font-family: "Changa One", sans-serif;
 }
-
 
 .referencias ul {
     list-style-position: inside;
@@ -76,6 +75,14 @@ body {
 .titulares {
     color: rgb(0, 0, 0);
     font-family: "Changa One", sans-serif;
+}
+
+#nombre {
+    font-size: 24px;
+}
+
+#profesion {
+    font-size: 18px;
 }
 
 .sobre_mi {
@@ -101,7 +108,7 @@ body {
 }
 
 .educacion {
-    margin-top: 10px;
+    margin-top: -9px;
     padding: 10px;
     font-size: 10px;
     color: rgb(0, 0, 0);
@@ -118,7 +125,7 @@ body {
 }
 
 .habilidades {
-    margin-top: 10px;
+    margin-top: -9px;
     padding: 10px;
     font-size: 10px;
     color: black;
@@ -150,6 +157,7 @@ border-bottom: 2px solid #fbfafa;
     
 .titulo_experiencia {
     border-bottom: 2px solid #000000;
+    font-size: 20px;
     padding-bottom: 5px;
 }
     
